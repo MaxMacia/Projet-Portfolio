@@ -1,3 +1,4 @@
+/* Variables */
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -15,8 +16,7 @@ body, html {
 header {
   display: flex;
   justify-content: flex-end;
-  background-color: #e9eced;
-  margin-top: 5p;
+  background-color: #e8ebed;
 }
 header h1 {
   font-size: 1em;
@@ -58,7 +58,6 @@ header .fa-solid.fa-wifi {
 }
 .desktop img {
   height: 100px;
-  width: 136 px;
   margin-bottom: 10px;
 }
 
@@ -66,7 +65,19 @@ header .fa-solid.fa-wifi {
   display: none;
 }
 
-.heading {
-  color: #FFF;
-  padding-left: 20px;
+.about-me-window {
+  height: 500px;
+  width: 75%;
+  transform: translate(160px, -100px);
+}
+
+.about-me-read-me {
+  transform: translate(600px, -400px);
+}
+.about-me-read-me p {
+  color: black;
+  font-weight: bold;
+}
+.about-me-read-me img {
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
