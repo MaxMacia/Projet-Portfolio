@@ -80,4 +80,16 @@ header .fa-solid.fa-wifi {
 }
 .about-me-read-me img {
   height: 100px;
+  width: 6.5%;
+}
+
+.quit-btn {
+  height: 30px;
+  width: 3%;
+  transform: translate(170px, -725px);
+}
+
+.window-txt {
+  height: 750px;
+  transform: translate(350px, -800px);
 }/*# sourceMappingURL=style.css.map */
