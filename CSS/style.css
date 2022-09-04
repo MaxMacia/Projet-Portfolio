@@ -1,4 +1,4 @@
-/* Variables */
+/* Variables */ /* Elements principaux de la page */
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -13,6 +13,7 @@ body, html {
   height: 100%;
 }
 
+/* Header */
 header {
   display: flex;
   justify-content: flex-end;
@@ -41,6 +42,8 @@ header .fa-solid.fa-wifi {
   justify-content: flex-end;
   flex-wrap: wrap;
   margin-top: 70px;
+  height: 100%;
+  position: relative;
 }
 .desktop figure {
   padding-right: 50px;
@@ -56,7 +59,7 @@ header .fa-solid.fa-wifi {
   color: #FFF;
   font-weight: bold;
 }
-.desktop img {
+.desktop figure img {
   height: 100px;
   margin-bottom: 10px;
 }
@@ -68,11 +71,35 @@ header .fa-solid.fa-wifi {
 .about-me-window {
   height: 500px;
   width: 75%;
-  transform: translate(160px, -100px);
+  position: absolute;
+  bottom: 55%;
+  right: 10%;
+}
+
+.about-me-window-container {
+  position: relative;
+  height: 900px;
+  width: 100%;
+  z-index: 0;
+}
+.about-me-window-container .quit-btn-a {
+  height: 40px;
+  width: 20%;
+  z-index: 1;
+  position: absolute;
+  bottom: 106%;
+  left: 15%;
+}
+.about-me-window-container .quit-btn-a .quit-btn {
+  height: 30px;
+  width: 20%;
 }
 
 .about-me-read-me {
-  transform: translate(600px, -400px);
+  position: absolute;
+  z-index: 0;
+  bottom: 70%;
+  left: 50%;
 }
 .about-me-read-me p {
   color: black;
@@ -80,16 +107,24 @@ header .fa-solid.fa-wifi {
 }
 .about-me-read-me img {
   height: 100px;
-  width: 6.5%;
-}
-
-.quit-btn {
-  height: 30px;
-  width: 3%;
-  transform: translate(170px, -725px);
+  width: 100%;
 }
 
 .window-txt {
-  height: 750px;
-  transform: translate(350px, -800px);
+  position: absolute;
+  bottom: 50%;
+  left: 35%;
+}
+.window-txt img {
+  height: 550px;
+}
+
+.window-txt-txt {
+  position: absolute;
+  width: 30%;
+  height: 460px;
+  left: 40%;
+  top: -5%;
+  text-align: justify;
+  overflow: scroll;
 }/*# sourceMappingURL=style.css.map */

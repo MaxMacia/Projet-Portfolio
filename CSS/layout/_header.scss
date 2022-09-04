@@ -1,0 +1,26 @@
+/* Header */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: $header-bg-color;
+    h1{
+        font-size: 1em;
+        padding-right: 5px;
+        padding-top: 2px;
+    }
+    .fa-solid.fa-battery-three-quarters{
+        padding-right: 20px;
+        padding-top: 2px;
+    }
+    p{
+        padding-right: 5px;
+        padding-top: 2px;
+    }
+    .fa-solid.fa-wifi{
+        padding-right: 20px;
+        padding-top: 2px;
+    }
+    
+
+}

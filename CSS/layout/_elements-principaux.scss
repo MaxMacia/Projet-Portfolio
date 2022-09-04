@@ -1,0 +1,17 @@
+/* Elements principaux de la page */
+
+*{
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, html{
+    background-color: $desktop-bg-color;
+    height: 100%;
+}
